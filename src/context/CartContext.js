@@ -1,4 +1,3 @@
-import React, {useState, createContext} from 'react';
+import React, {createContext} from 'react';
 
 export const CartContext = createContext();
-const {Provider, Consumer} = CartContext;
